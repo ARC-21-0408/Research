@@ -1,0 +1,43 @@
+#   fiber RA             Dec           objtype  z      zq  notes
+  2     3 171.7509708333 42.5175172222 HZ17     0.232   4  [OII],H&K,Balmer evol, [OIII] Ha/[NII] 6548, 6583, [SII]       
+  4     5 171.8011791667 42.4733008333 MUSTDO3  0.353   4  CaII H & K, G-b, Hg, Hb (all weak but all there)!                                                  
+  5     6 171.7759333333 42.4577941667 RS284    0.000   1  double abs feature at 6133 Ang?  Faint & ratty                                 
+  8     9 171.7464625000 42.5030822222 RS83     0.412   4  [OII], CaII H & K, Hb?, [OIII]?                                  
+ 23    24 171.8605041667 42.4494513889 RS325    0.347   4  CaII H & K, Hb, MgI                                           
+ 37    38 171.7477958333 42.4696694444 RS223    0.346   4  CaII H & K, Gb, Balmer, MgI                                           
+ 39    40 171.7814666667 42.4729155556 RS202    0.622   4  [OII], H&K, Balmer evol, Hb EL, [OIII]                                      
+ 42    43 171.7606541667 42.4867630556 RS135    0.445   4  CaII H & K, Balmer, NaD, MgI, Gb
+ 53    54 171.7873041667 42.4980697222 HZ9              1  noise!                                                           
+ 54    55 171.7699375000 42.5226477778 RS14     0.389   4  CaII H & K, Balmer, Gb, MgI                                                    
+ 62    63 171.8251000000 42.4767608333 MUSTDO1          1  noise!                                                       
+ 63    64 171.8165291667 42.4746972222 MUSTDO2          1  narrow emission-like feature at 7492 Ang, probably not real      
+ 70    71 171.8443833333 42.5191077778 RS26     0.344   4  CaII H & K, Balmer, Gb, MgI, NaD?                                             
+ 71    72 171.8308083333 42.4974861111 RS98     0.346   3  4000A break, poss CaH, Hd,Hb?, Gb,MgI                                  
+ 76    77 171.8349416667 42.5143433333 RS45     0.443   4  [OII], Balmer, Hb EL, [OIII] 4959, 5007                            
+ 87    88 171.8524083333 42.4969672222 RS101    0.460   2  CaII H & K?  or z=0.34 w/ 4000A break..
+ 92    93 171.8493041667 42.4785119444 DE3      0.0    -1  M-like star with many AL features                                                     
+103   104 171.8555833333 42.4622038889 DE4      0.395   2  emission-like feature at 5190 Ang                                 
+181   182 171.8352416667 42.4664344444 RS241    0.345   4  CaII H & K, Hb (abs), 4000A break,Hz,Hd,Hb,MgI                                           
+256   257 171.7964041667 42.4474677778 RS331    0.412   4  [OII], CaII H & K, Hb (abs)?, other Balmer abs, Gb, MgI                         
+262   263 171.7499958333 42.4510383333 RS321    0.388   4  [OII] EL, CaII H & K, Balmer evol!, MgI,    (gw says z=0.5 but not >2 features at this z…)                                                     
+287   288 171.8247000000 42.4556769444 DE7      0.193   4  CaII H & K, Hb (abs), Gb, MgI, NaD, TiO (EL)                                            
+289   290 171.8116791667 42.4604377778 DE5      0.135   4  CaII H & K, Hb, [OIII], Ha, [NII]6548,6583; [SII]6717,6731, NaD, Gb, Balmer evol
+
+
+#    zq - redshift quality
+#
+#      quality  description
+#      -------  ----------   
+#        -2     Object was effectively unobserved
+#        -1     Object is identified as a star (i.e., z ~ 0)
+#         0     Object has yet to be inspected; quality still to be
+#         assigned.
+#         1     Redshift unlikely to be recovered for this source; redshift
+#         value in catalog is not meaningful.
+#         2     Redshift may yet to be recovered for this source; redshift
+#         value in catalog is not meaningful.
+#         3     Secure redshift
+#         4     Very secure redshift.
+#       
+#      adopted from the DEEP2 Redshift Survey:
+#      http://deep.ps.uci.edu/dr4/zquality.html
